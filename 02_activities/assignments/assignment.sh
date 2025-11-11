@@ -51,6 +51,7 @@ cd ..
 cd ./processed/user_logs
 find . -type f -name "*ipaddr*" -exec rm {} \;
 cd ..
+cd ..
 pwd 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 find . -type f >> inventory.txt
